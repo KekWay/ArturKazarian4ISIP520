@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="137bd106ea144d879210d9d0e71a8079" Name="Diagram1">
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.City" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Country" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Event" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Gender" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Jures" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Moderators" Width="1.5" PointX="6" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Organizators" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Parcipiants" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Roles" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Kazarian4ISIP520_EventsModel.Users" Width="1.5" PointX="3" PointY="31.625" IsExpanded="true" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Event_City1" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Jures_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Moderators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Organizators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Parcipiants_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Jures_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Moderators_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Organizators_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Parcipiants_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Jures_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Moderators_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Organizators_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Parcipiants_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Kazarian4ISIP520_EventsModel.FK_Users_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

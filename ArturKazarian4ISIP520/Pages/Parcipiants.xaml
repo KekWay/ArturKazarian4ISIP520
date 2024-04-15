@@ -1,0 +1,23 @@
+﻿<Window x:Class="ArturKazarian4ISIP520.Pages.Parcipiants"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArturKazarian4ISIP520.Pages"
+        mc:Ignorable="d"
+        Title="Parcipiants" Height="450" Width="450">
+    <Grid>
+        <ListView x:Name="Players" Margin="35,66,35,45">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Фамилия" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Имя" DisplayMemberBinding="{Binding Date}" />
+                    <GridViewColumn Header="Отчество" DisplayMemberBinding="{Binding Days}" />
+                    <GridViewColumn Header="Mail" DisplayMemberBinding="{Binding Birthday}" />
+                    <GridViewColumn Header="День рождения" DisplayMemberBinding="{Binding Mail}" />
+                    <GridViewColumn Header="Телефон" DisplayMemberBinding="{Binding Phone}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
